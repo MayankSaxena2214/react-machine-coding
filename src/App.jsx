@@ -10,12 +10,14 @@ so we need to maining the list of toast
 
  */
 import AdvancedToast from './components/AdvancedToast'
+import MultipleToastOptimized from './components/MultipleToastOptimized';
 const App = () => {
   return (
     <div className='bg-blue-50'>
       {/* <Accordian/> */}
       {/* <ToastContainer/> */}
-      <AdvancedToast/>
+      {/* <AdvancedToast/> */}
+      <MultipleToastOptimized/>
     </div>
   )
 }
