@@ -12,14 +12,17 @@ so we need to maining the list of toast
 import AdvancedToast from './components/AdvancedToast'
 import MultipleToastOptimized from './components/MultipleToastOptimized';
 import InfiniteScroll from './components/InfiniteScroll';
+import Carousel from './components/Carousel';
 const App = () => {
+ 
   return (
     <div className='bg-blue-50'>
       {/* <Accordian/> */}
       {/* <ToastContainer/> */}
       {/* <AdvancedToast/> */}
       {/* <MultipleToastOptimized/> */}
-      <InfiniteScroll/>
+      {/* <InfiniteScroll/> */}
+      <Carousel/>
     </div>
   )
 }
